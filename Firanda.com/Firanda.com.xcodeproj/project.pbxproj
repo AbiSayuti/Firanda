@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC16B6C51FD19A7300291AC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC16B6C41FD19A7300291AC0 /* AppDelegate.swift */; };
+		AC16B6C71FD19A7300291AC0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC16B6C61FD19A7300291AC0 /* ViewController.swift */; };
+		AC16B6CA1FD19A7300291AC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC16B6C81FD19A7300291AC0 /* Main.storyboard */; };
+		AC16B6CC1FD19A7300291AC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC16B6CB1FD19A7300291AC0 /* Assets.xcassets */; };
+		AC16B6CF1FD19A7300291AC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC16B6CD1FD19A7300291AC0 /* LaunchScreen.storyboard */; };
+		AC16B6DA1FD19A7300291AC0 /* Firanda_comTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC16B6D91FD19A7300291AC0 /* Firanda_comTests.swift */; };
+		AC16B6E51FD19A7300291AC0 /* Firanda_comUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC16B6E41FD19A7300291AC0 /* Firanda_comUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC16B6D61FD19A7300291AC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC16B6B91FD19A7300291AC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC16B6C01FD19A7300291AC0;
+			remoteInfo = Firanda.com;
+		};
+		AC16B6E11FD19A7300291AC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC16B6B91FD19A7300291AC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC16B6C01FD19A7300291AC0;
+			remoteInfo = Firanda.com;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC16B6C11FD19A7300291AC0 /* Firanda.com.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Firanda.com.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC16B6C41FD19A7300291AC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC16B6C61FD19A7300291AC0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AC16B6C91FD19A7300291AC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC16B6CB1FD19A7300291AC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC16B6CE1FD19A7300291AC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC16B6D01FD19A7300291AC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC16B6D51FD19A7300291AC0 /* Firanda.comTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Firanda.comTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC16B6D91FD19A7300291AC0 /* Firanda_comTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Firanda_comTests.swift; sourceTree = "<group>"; };
+		AC16B6DB1FD19A7300291AC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC16B6E01FD19A7300291AC0 /* Firanda.comUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Firanda.comUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC16B6E41FD19A7300291AC0 /* Firanda_comUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Firanda_comUITests.swift; sourceTree = "<group>"; };
+		AC16B6E61FD19A7300291AC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC16B6BE1FD19A7300291AC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC16B6D21FD19A7300291AC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC16B6DD1FD19A7300291AC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC16B6B81FD19A7300291AC0 = {
+			isa = PBXGroup;
+			children = (
+				AC16B6C31FD19A7300291AC0 /* Firanda.com */,
+				AC16B6D81FD19A7300291AC0 /* Firanda.comTests */,
+				AC16B6E31FD19A7300291AC0 /* Firanda.comUITests */,
+				AC16B6C21FD19A7300291AC0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC16B6C21FD19A7300291AC0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC16B6C11FD19A7300291AC0 /* Firanda.com.app */,
+				AC16B6D51FD19A7300291AC0 /* Firanda.comTests.xctest */,
+				AC16B6E01FD19A7300291AC0 /* Firanda.comUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC16B6C31FD19A7300291AC0 /* Firanda.com */ = {
+			isa = PBXGroup;
+			children = (
+				AC16B6C41FD19A7300291AC0 /* AppDelegate.swift */,
+				AC16B6C61FD19A7300291AC0 /* ViewController.swift */,
+				AC16B6C81FD19A7300291AC0 /* Main.storyboard */,
+				AC16B6CB1FD19A7300291AC0 /* Assets.xcassets */,
+				AC16B6CD1FD19A7300291AC0 /* LaunchScreen.storyboard */,
+				AC16B6D01FD19A7300291AC0 /* Info.plist */,
+			);
+			path = Firanda.com;
+			sourceTree = "<group>";
+		};
+		AC16B6D81FD19A7300291AC0 /* Firanda.comTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC16B6D91FD19A7300291AC0 /* Firanda_comTests.swift */,
+				AC16B6DB1FD19A7300291AC0 /* Info.plist */,
+			);
+			path = Firanda.comTests;
+			sourceTree = "<group>";
+		};
+		AC16B6E31FD19A7300291AC0 /* Firanda.comUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AC16B6E41FD19A7300291AC0 /* Firanda_comUITests.swift */,
+				AC16B6E61FD19A7300291AC0 /* Info.plist */,
+			);
+			path = Firanda.comUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC16B6C01FD19A7300291AC0 /* Firanda.com */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC16B6E91FD19A7300291AC0 /* Build configuration list for PBXNativeTarget "Firanda.com" */;
+			buildPhases = (
+				AC16B6BD1FD19A7300291AC0 /* Sources */,
+				AC16B6BE1FD19A7300291AC0 /* Frameworks */,
+				AC16B6BF1FD19A7300291AC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Firanda.com;
+			productName = Firanda.com;
+			productReference = AC16B6C11FD19A7300291AC0 /* Firanda.com.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC16B6D41FD19A7300291AC0 /* Firanda.comTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC16B6EC1FD19A7300291AC0 /* Build configuration list for PBXNativeTarget "Firanda.comTests" */;
+			buildPhases = (
+				AC16B6D11FD19A7300291AC0 /* Sources */,
+				AC16B6D21FD19A7300291AC0 /* Frameworks */,
+				AC16B6D31FD19A7300291AC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC16B6D71FD19A7300291AC0 /* PBXTargetDependency */,
+			);
+			name = Firanda.comTests;
+			productName = Firanda.comTests;
+			productReference = AC16B6D51FD19A7300291AC0 /* Firanda.comTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AC16B6DF1FD19A7300291AC0 /* Firanda.comUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC16B6EF1FD19A7300291AC0 /* Build configuration list for PBXNativeTarget "Firanda.comUITests" */;
+			buildPhases = (
+				AC16B6DC1FD19A7300291AC0 /* Sources */,
+				AC16B6DD1FD19A7300291AC0 /* Frameworks */,
+				AC16B6DE1FD19A7300291AC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC16B6E21FD19A7300291AC0 /* PBXTargetDependency */,
+			);
+			name = Firanda.comUITests;
+			productName = Firanda.comUITests;
+			productReference = AC16B6E01FD19A7300291AC0 /* Firanda.comUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC16B6B91FD19A7300291AC0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Abi Sayuti";
+				TargetAttributes = {
+					AC16B6C01FD19A7300291AC0 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					AC16B6D41FD19A7300291AC0 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AC16B6C01FD19A7300291AC0;
+					};
+					AC16B6DF1FD19A7300291AC0 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AC16B6C01FD19A7300291AC0;
+					};
+				};
+			};
+			buildConfigurationList = AC16B6BC1FD19A7300291AC0 /* Build configuration list for PBXProject "Firanda.com" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC16B6B81FD19A7300291AC0;
+			productRefGroup = AC16B6C21FD19A7300291AC0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC16B6C01FD19A7300291AC0 /* Firanda.com */,
+				AC16B6D41FD19A7300291AC0 /* Firanda.comTests */,
+				AC16B6DF1FD19A7300291AC0 /* Firanda.comUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC16B6BF1FD19A7300291AC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC16B6CF1FD19A7300291AC0 /* LaunchScreen.storyboard in Resources */,
+				AC16B6CC1FD19A7300291AC0 /* Assets.xcassets in Resources */,
+				AC16B6CA1FD19A7300291AC0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC16B6D31FD19A7300291AC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC16B6DE1FD19A7300291AC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC16B6BD1FD19A7300291AC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC16B6C71FD19A7300291AC0 /* ViewController.swift in Sources */,
+				AC16B6C51FD19A7300291AC0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC16B6D11FD19A7300291AC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC16B6DA1FD19A7300291AC0 /* Firanda_comTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC16B6DC1FD19A7300291AC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC16B6E51FD19A7300291AC0 /* Firanda_comUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC16B6D71FD19A7300291AC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC16B6C01FD19A7300291AC0 /* Firanda.com */;
+			targetProxy = AC16B6D61FD19A7300291AC0 /* PBXContainerItemProxy */;
+		};
+		AC16B6E21FD19A7300291AC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC16B6C01FD19A7300291AC0 /* Firanda.com */;
+			targetProxy = AC16B6E11FD19A7300291AC0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC16B6C81FD19A7300291AC0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC16B6C91FD19A7300291AC0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC16B6CD1FD19A7300291AC0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC16B6CE1FD19A7300291AC0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC16B6E71FD19A7300291AC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC16B6E81FD19A7300291AC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC16B6EA1FD19A7300291AC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Firanda.com/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ABI-SA.Firanda-com";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC16B6EB1FD19A7300291AC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Firanda.com/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ABI-SA.Firanda-com";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AC16B6ED1FD19A7300291AC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Firanda.comTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ABI-SA.Firanda-comTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Firanda.com.app/Firanda.com";
+			};
+			name = Debug;
+		};
+		AC16B6EE1FD19A7300291AC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Firanda.comTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ABI-SA.Firanda-comTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Firanda.com.app/Firanda.com";
+			};
+			name = Release;
+		};
+		AC16B6F01FD19A7300291AC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Firanda.comUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ABI-SA.Firanda-comUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Firanda.com;
+			};
+			name = Debug;
+		};
+		AC16B6F11FD19A7300291AC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Firanda.comUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ABI-SA.Firanda-comUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Firanda.com;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC16B6BC1FD19A7300291AC0 /* Build configuration list for PBXProject "Firanda.com" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC16B6E71FD19A7300291AC0 /* Debug */,
+				AC16B6E81FD19A7300291AC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC16B6E91FD19A7300291AC0 /* Build configuration list for PBXNativeTarget "Firanda.com" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC16B6EA1FD19A7300291AC0 /* Debug */,
+				AC16B6EB1FD19A7300291AC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC16B6EC1FD19A7300291AC0 /* Build configuration list for PBXNativeTarget "Firanda.comTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC16B6ED1FD19A7300291AC0 /* Debug */,
+				AC16B6EE1FD19A7300291AC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC16B6EF1FD19A7300291AC0 /* Build configuration list for PBXNativeTarget "Firanda.comUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC16B6F01FD19A7300291AC0 /* Debug */,
+				AC16B6F11FD19A7300291AC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC16B6B91FD19A7300291AC0 /* Project object */;
+}
